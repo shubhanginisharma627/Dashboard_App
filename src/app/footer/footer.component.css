@@ -1,0 +1,76 @@
+#footer{
+    background-image: url(https://tusharghone.com/assets/images/cartographer.png);
+    position: relative;
+    margin-top: 0;
+    padding: 4rem 10rem;
+}
+
+
+ul{
+    padding-left: 0;
+    margin-top:0 ;
+    list-style: none;
+}
+li{
+    display: inline-block;
+    margin-right: 1rem;
+}
+#icons{
+    text-align: center;
+}
+.address{
+    color: #fff;
+    max-width: 60%;
+    margin: auto;
+    font-size: 14px;
+    padding: 1em 0;
+    text-align: center;
+}
+.social-icon {
+    border: 2px solid #868e96;
+    border-radius: 50%;
+    transition: all 0.5s;
+    width: 42px;
+    height: 42px;
+    display: block;
+    font-size: 16px;
+    line-height: 40px;
+    text-align: center;
+    cursor: pointer;
+}
+.social-icon:hover{
+    border-color: #fff;
+}
+#dataContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.item{
+    padding: 0.5rem 2rem;
+}
+.footer-line{
+    color: #6c757d ;
+    margin-bottom: 0;
+    font-size: 14.4px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.item-2{
+    border-right: 1px solid #868e96;
+    border-left: 1px solid #868e96;
+}
+a{
+    text-decoration: none;
+    color:#868e96;
+    font-size: 14.4px;
+    line-height: 24px;
+}
+a:hover{
+    color: #fff;
+   
+}
