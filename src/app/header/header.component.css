@@ -37,4 +37,10 @@
     color: #fff;
   }
   
-  
+
+@media (max-width: 1224px) {
+  .navbar{
+    padding: 1rem 3rem;
+  }
+     
+}

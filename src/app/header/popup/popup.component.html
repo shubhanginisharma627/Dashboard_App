@@ -1,0 +1,9 @@
+<div class="popup" *ngIf="isVisible">
+    <a [class.active]="isActive('Home')" (click)="scrollToSection('Home')">Home</a>
+    <a [class.active]="isActive('Services')" (click)="scrollToSection('Services')">Services</a>
+    <a [class.active]="isActive('AboutUs')" (click)="scrollToSection('AboutUs')">About US</a>
+    <a [class.active]="isActive('Course')" (click)="scrollToSection('Course')">Course</a>
+    <a [class.active]="isActive('Instructor')" (click)="scrollToSection('Instructor')">Instructor</a>
+    <a [class.active]="isActive('FAQ')" (click)="scrollToSection('FAQ')">FAQ</a>
+    <a href="#" >Sebi Investor</a>
+</div>

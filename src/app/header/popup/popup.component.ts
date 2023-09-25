@@ -1,21 +1,20 @@
-import { Component, HostListener, OnInit } from '@angular/core';
-import { ScrollService } from '../scroll.service';
+import { Component, Input,HostListener } from '@angular/core';
+import { ScrollService } from '../../scroll.service';
 import { BreakpointObserver, Breakpoints } from '@angular/cdk/layout';
-@Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.css']
-})
-export class HeaderComponent {
 
+@Component({
+  selector: 'app-popup',
+  templateUrl: './popup.component.html',
+  styleUrls: ['./popup.component.css']
+})
+export class PopupComponent {
   constructor(private scrollService: ScrollService, private breakpointObserver: BreakpointObserver) { }
+  @Input() isVisible : boolean= false;
   isScrolled = false;
   isSmallScreen = false;
-  isPopupOpen = false;
-  popupPosition = { top: '0', left: '0' };
   ngOnInit(): void {
     // Detect small screen using BreakpointObserver
-    this.breakpointObserver.observe([Breakpoints.Small,Breakpoints.XSmall])
+    this.breakpointObserver.observe([Breakpoints.Small])
       .subscribe((result) => {
         this.isSmallScreen = result.matches;
       });
@@ -24,21 +23,6 @@ export class HeaderComponent {
     console.log(this.scrollService.getActiveSectionId(), "sessionId")
     return sectionId === this.scrollService.getActiveSectionId();
   }
-  openPopup(): void {
-    this.isPopupOpen = !this.isPopupOpen;
-    if (this.isPopupOpen) {
-      // Calculate the position based on the navbar's dimensions
-      const navbar = document.querySelector('.navbar');
-      if (navbar) {
-        const navbarRect = navbar.getBoundingClientRect();
-        this.popupPosition = {
-          top: `${navbarRect.bottom}px`,
-          left: `${navbarRect.left}px`,
-        };
-      }
-    }
-  }
-
   @HostListener('window:scroll', [])
   onScroll(): void {
     // Check if the user has scrolled

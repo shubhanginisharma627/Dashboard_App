@@ -52,3 +52,30 @@ a{
 .button:hover{
     border-color: #eaeaea;
 }
+@media (max-width: 1147px) {
+    #Introduction{
+        flex-wrap: wrap;
+        padding: 1rem 5rem 5rem ;
+        justify-content: center;
+      }
+      #TextContainer{
+          padding: 1rem;
+      }
+      .aboutImage{
+          height: 20rem;
+      }
+}
+
+@media (max-width: 992px) {
+    #Introduction{
+      flex-wrap: wrap;
+      padding: 1rem 5rem 5rem ;
+      justify-content: center;
+    }
+    #TextContainer{
+        padding: 1rem;
+    }
+    .aboutImage{
+        height: 20rem;
+    }
+}

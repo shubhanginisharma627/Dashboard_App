@@ -24,9 +24,10 @@ span{
 p{
     line-height: 1.8;
     color: #fff;
+    text-align: left;
 }
 #TextContainer{
-     padding:  2rem 2rem;
+     padding:  2rem ;
 }
 .aboutImage{
     height: 30em;
@@ -42,3 +43,16 @@ h5{
     margin-right: 2em;
 }
 
+@media (max-width: 1128px) {
+    #Introduction{
+      flex-wrap: wrap;
+      padding: 1rem 5rem 5rem ;
+      justify-content: center;
+    }
+    .aboutImage{
+        height: 20rem;
+    }
+    #TextContainer{
+        padding:  1rem ;
+   }
+}

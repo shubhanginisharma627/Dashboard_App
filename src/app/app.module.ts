@@ -22,6 +22,7 @@ import { FaqDropdownComponent } from './sections/faq/faq-dropdown/faq-dropdown.c
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { IntroComponent } from './sections/aboutus/intro/intro.component';
 import { ScrollService } from './scroll.service';
+import { PopupComponent } from './header/popup/popup.component';
 
 
 
@@ -44,6 +45,7 @@ import { ScrollService } from './scroll.service';
     DropdownComponent,
     FaqDropdownComponent,
     IntroComponent,
+    PopupComponent,
 
 
   ],

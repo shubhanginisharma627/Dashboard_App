@@ -1,13 +1,19 @@
 <!-- header.component.html -->
-
+<div>
 <div class="navbar" [class.navbar-scroll]="isScrolled">
-    <!-- Left side: Icon -->
-    <div class="logo">
-        <img src="assets/logo.png" alt="Logo" >
-    </div>
-  
-    <!-- Right side: Navbar items -->
-    <div class="navbar-items">
+  <!-- Left side: Icon -->
+  <div class="logo">
+      <img src="assets/logo.png" alt="Logo">
+  </div>
+
+  <!-- Hamburger menu icon (shown on small screens) -->
+  <div class="hamburger-menu" *ngIf="isSmallScreen" (click)="openPopup()">
+      <!-- Add your hamburger icon here -->
+      <i class="material-icons">menu</i>
+  </div>
+
+  <!-- Right side: Navbar items (shown on larger screens) -->
+  <div class="navbar-items" *ngIf="!isSmallScreen">
       <a [class.active]="isActive('Home')" (click)="scrollToSection('Home')">Home</a>
       <a [class.active]="isActive('Services')" (click)="scrollToSection('Services')">Services</a>
       <a [class.active]="isActive('AboutUs')" (click)="scrollToSection('AboutUs')">About US</a>
@@ -15,6 +21,10 @@
       <a [class.active]="isActive('Instructor')" (click)="scrollToSection('Instructor')">Instructor</a>
       <a [class.active]="isActive('FAQ')" (click)="scrollToSection('FAQ')">FAQ</a>
       <a href="#">Sebi Investor</a>
-    </div>
-</div>
+  </div>
+
+  <!-- Sidebar for Navbar items (shown when sidebarOpen is true) -->
   
+</div>
+<app-popup [isVisible]="isPopupOpen" [ngStyle]="popupPosition"></app-popup>
+</div>

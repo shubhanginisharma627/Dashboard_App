@@ -3,8 +3,9 @@
     background-size: 98vw;
     padding: 2rem 10rem 10rem;
     display: flex;
-
+ background-repeat: no-repeat;
     justify-content: space-between;
+    background-color: #1a1a1a;
 }
 
 h5{
@@ -81,6 +82,7 @@ a{
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     margin-top: 3rem;
 }
 
@@ -113,4 +115,16 @@ h6{
     background: linear-gradient(90deg,#E37B5A -8.76%,#D75B7F 49.19%,#9F67A3 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+
+@media (max-width: 1128px) {
+    #homeContainer{
+      flex-wrap: wrap;
+      padding: 1rem 5rem 5rem ;
+      justify-content: center;
+    }
+    .img-bulls{
+        height: 20rem;
+    }
 }

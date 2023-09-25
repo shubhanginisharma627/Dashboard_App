@@ -52,9 +52,31 @@ p{
     margin-bottom: 1rem;
 }
 .cardDeck{
-    display: grid;
+  display: grid;
   grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
   gap: 3rem;
    
 
+}
+@media (max-width: 1228px)  {
+    #CourseContainer{
+      flex-wrap: wrap;
+      padding: 1rem;
+    }
+    .cardDeck{
+            grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+            gap: 2rem; 
+          
+    }
+}
+@media (max-width: 752px)  {
+    #CourseContainer{
+      flex-wrap: wrap;
+      padding: 1rem;
+    }
+    .cardDeck{
+            grid-template-columns: repeat(1, 1fr); /* Two columns with equal width */
+            gap: 1rem; 
+          
+    }
 }
