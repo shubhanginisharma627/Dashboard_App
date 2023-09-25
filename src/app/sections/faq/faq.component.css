@@ -1,0 +1,19 @@
+#FAQ{
+    background: #1C1C1C;
+    background-image: url(https://tusharghone.com/faq.cd6f8a21aef14325.png);
+    background-size: 70vw;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    margin-top: 0;
+    padding: 3rem 10rem;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 54px;
+    text-align: center;
+    color: #bcbae2;
+    margin-top: 0;
+    
+}

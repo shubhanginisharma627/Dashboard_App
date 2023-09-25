@@ -1,3 +1,11 @@
-<div>
-    <h1>Frequently Asked Questions (FAQ)</h1>
+   <div class="dropdownItem">
+    <div >
+        <button (click)="toggleVisibility()" id="visibleComp">
+            <div class="name">{{item.title}}</div> <span><mat-icon class="toggleIcon">{{ isVisible ? 'keyboard_arrow_up' : 'keyboard_arrow_down'}}</mat-icon></span> 
+          </button>
+    </div>
+    <div *ngIf="isVisible" id="hidden">
+        <p>{{item.hidden}} <a href="#">{{item.link1}}</a></p>
+        <p>{{item.hidden2}} <a href="#">{{item.link2}}</a></p>
+    </div>
 </div>

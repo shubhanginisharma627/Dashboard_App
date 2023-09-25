@@ -1,6 +1,6 @@
 <div *ngFor="let item of items; let i = index">
     <div id="visibleComp">
-        <div><span>{{i<9?"0":""}}{{i+1}}</span>{{item.title}}</div>
+        <div><span>{{i>9?"0":""}}{{i+1}}</span>{{"            "}}{{item.title}}</div>
         <button (click)="toggleVisibility(i)">
             {{ isVisible[i] ? '-' : '+' }}
           </button>

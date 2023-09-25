@@ -1,8 +1,22 @@
 #Information{
-    padding: 10rem;
-    background: #151515;
+    padding: 2rem 10rem;
+    background: #272727;
 }
-
+h2{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 54px;
+    align-items: center;
+    color: #fff;
+}
+.little{
+    color: #DF7068;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 24px;
+    align-items: center;
+    
+}
 #Introduction{
     display: flex;
     flex-direction: row;
@@ -12,8 +26,8 @@
     
 }
 .aboutImage{
-    height: 30em;
-    padding: 2rem 5rem;
+    height: 25em;
+    padding: 2rem 4rem;
 }
 span{
     background: linear-gradient(90deg,#FBC71D -8.76%,#F8AA23 49.19%,#A76A00 100%);
@@ -21,6 +35,30 @@ span{
     -webkit-text-fill-color: transparent;
 }
 p{
-    line-height: 1.8;
-    color: #fff;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 24px;
+    align-items: center;
+    color: #eaeaea;
+    margin-top: 0.2rem;
+   
+}
+.pointImage{
+    height: 4rem;
+    margin-right: 1rem;
+}
+.steps{
+    display:flex;
+    flex-direction: row;
+ 
+    align-items: center;
+}
+h3{
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    color: #eaeaea;
+    margin-bottom: 0.1rem;
 }

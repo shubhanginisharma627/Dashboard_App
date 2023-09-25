@@ -18,7 +18,7 @@ export class DropdownComponent {
     this.isVisible[i] = !this.isVisible[i];
     for (let j = 0; j < this.isVisible.length; j++) {
       if (j !== i) {
-        this.isVisible[j] = false;
+       this.isVisible[j] = false;
       } 
     }
   }
