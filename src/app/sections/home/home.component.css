@@ -1,0 +1,116 @@
+#homeContainer{
+    background-image: url(https://tusharghone.com/home.e103acf0b8bfe435.png);
+    background-size: 98vw;
+    padding: 2rem 10rem 10rem;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+h5{
+  color: #df7068;
+  font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    word-break: break-word;
+    margin-top: 8rem;
+    margin-bottom: 0.1rem;
+}
+h3{
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 44px;
+    word-break: break-word;
+    color: #eaeaea;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 3.5rem;
+    word-break: break-word;
+    color: #fff;
+    width: 25rem;
+    margin-top: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+#comment{
+    font-size: 16px;
+    line-height: 2;
+    max-width: 600px;
+    color: #6c757d ;
+}
+
+.button{
+    background: linear-gradient(90deg,#E37B5A -8.76%,#D75B7F 49.19%,#9F67A3 100%)!important;
+    border-radius: 60px!important;
+    
+    padding: 1rem 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    transition: all 0.5s;
+    border-color:transparent;
+    cursor: pointer;
+    
+}
+
+a{
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    font-weight: 700;
+    color: #fff;
+}
+.button:hover{
+    border-color: #eaeaea;
+}
+
+
+
+.img-bulls{
+    height: 28rem;
+}
+
+#dataContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.item{
+    padding: 0 2rem;
+}
+
+.item-2{
+    border-right: 1px solid #eaeaea;
+    border-left: 1px solid #eaeaea;
+}
+
+h6{
+    margin: 0;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 36px;
+    background: linear-gradient(90deg,#FBC71D -8.76%,#F8AA23 49.19%,#A76A00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.review{
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(90deg,#E37B5A -8.76%,#D75B7F 49.19%,#9F67A3 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,22 @@
+<div id="Card">
+   
+    <div class="CardComponent">
+       <div class="imgContainer">
+        <img [src]="item.imageUrl" alt="{{ item.title }}" >
+       </div>
+       <div class="info">
+        <div class="level">{{item.level}}</div>
+        <div class="indent"><div class="price">{{ item.price | currency :"INR" }}</div><span>/pack</span></div>
+       </div>
+       <h3>{{item.title}}</h3>
+       <div class="info">
+        <div class="join"><mat-icon class="icon">person</mat-icon>{{item.joined}} JOINED</div>
+        <div class="join"><mat-icon class="rotate-icon icon">play_circle_outline</mat-icon>
+            {{item.noOfVideos}} VIDEOS</div>
+       </div>
+    </div>
+    <div id="card-footer">
+        <a href="#">See Details</a>
+       </div>
+  
+</div>

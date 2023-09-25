@@ -1,0 +1,26 @@
+#Information{
+    padding: 10rem;
+    background: #151515;
+}
+
+#Introduction{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+   
+    
+}
+.aboutImage{
+    height: 30em;
+    padding: 2rem 5rem;
+}
+span{
+    background: linear-gradient(90deg,#FBC71D -8.76%,#F8AA23 49.19%,#A76A00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+p{
+    line-height: 1.8;
+    color: #fff;
+}

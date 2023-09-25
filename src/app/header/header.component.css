@@ -1,0 +1,40 @@
+/* header.component.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+    padding: 1.5rem 12rem;
+    font-family: "Mulish", sans-serif;
+    z-index: 999;
+    margin-bottom: 0px;
+    transition: all 0.5s ease-in-out;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+  .navbar-scroll{
+    background-color: #1a1a1a;
+  }
+  .logo img {
+    height: 55px;
+  }
+  
+  .navbar-items a {
+    color: #adb5bd;
+    text-decoration: none;
+    margin: 0 1rem;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .navbar-items a:hover {
+    color: #fff;
+  }
+  .navbar-items a.active {
+    color: #fff;
+  }
+  
+  

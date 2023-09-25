@@ -1,0 +1,40 @@
+#visibleComp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+#visibleComp div{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+    color: #fff;
+    margin-right: 13rem;
+}
+span{
+    margin-right: 3rem;
+    color: #df7068;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+
+}
+button{
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+}
+#hidden p{
+    color: grey;
+    font-size: 14px;
+    margin-left: 4.5rem;
+    width: 23rem;
+}

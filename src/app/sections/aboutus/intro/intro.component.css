@@ -1,0 +1,54 @@
+#Introduction{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10rem;
+    
+}
+h3{
+    font-size: 28px;
+    line-height: 1.6;
+    color: #fff;
+    font-family: "Mulish", sans-serif;
+}
+span{
+    background: linear-gradient(90deg,#FBC71D -8.76%,#F8AA23 49.19%,#A76A00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+p{
+    line-height: 1.8;
+    color: #fff;
+}
+#TextContainer{
+     padding:  2rem 6rem;
+}
+.aboutImage{
+    height: 30em;
+}
+.button{
+    background: linear-gradient(90deg,#E37B5A -8.76%,#D75B7F 49.19%,#9F67A3 100%)!important;
+    border-radius: 60px!important;
+    
+    padding: 1rem 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    transition: all 0.5s;
+    border-color:transparent;
+    cursor: pointer;
+    
+}
+
+a{
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    font-weight: 700;
+    color: #fff;
+}
+.button:hover{
+    border-color: #eaeaea;
+}
