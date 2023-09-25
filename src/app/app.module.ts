@@ -21,6 +21,7 @@ import { DropdownComponent } from './sections/aboutus/dropdown/dropdown.componen
 import { FaqDropdownComponent } from './sections/faq/faq-dropdown/faq-dropdown.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { IntroComponent } from './sections/aboutus/intro/intro.component';
+import { ScrollService } from './scroll.service';
 
 
 
@@ -53,7 +54,7 @@ import { IntroComponent } from './sections/aboutus/intro/intro.component';
     FormsModule,
     MatIconModule
   ],
-  providers: [],
+  providers: [ScrollService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

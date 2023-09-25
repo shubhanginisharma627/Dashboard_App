@@ -25,7 +25,9 @@ export class ScrollService {
       }
     });
   }
-
+  setActiveSectionId( sectionId:string | null):void{
+          this.activeSectionId= sectionId
+  }
   getActiveSectionId(): string | null {
     return this.activeSectionId;
   }
