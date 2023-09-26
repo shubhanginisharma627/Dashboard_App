@@ -76,7 +76,9 @@ p{
     }
     .cardDeck{
             grid-template-columns: repeat(1, 1fr); /* Two columns with equal width */
-            gap: 1rem; 
+            gap: 2rem; 
+            margin-left: 6rem;
+            margin-right:6rem;
           
     }
 }

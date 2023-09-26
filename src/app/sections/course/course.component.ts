@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
 export class CourseComponent {
    items = [
     {
-      "imageUrl":"https://tushar-ghone-2.s3.ap-south-1.amazonaws.com…pp%20Image%202023-07-14%20at%2012.03.12%20PM.jpeg",
+      "imageUrl":"https://tushar-ghone-2.s3.ap-south-1.amazonaws.com/WhatsApp%20Image%202023-07-14%20at%2012.03.12%20PM.jpeg",
       "level":"All Levels",
       "price":"4999",
       "title":"Money Making Trading Course",
