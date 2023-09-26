@@ -12,8 +12,15 @@
 
 }
 a{
+    color: #adb5bd;
     text-decoration: none;
-    color: #fff;
     padding: 1rem;
    
 }
+
+a:hover{
+    color: #fff;
+}
+a.active {
+    color: #fff;
+  }
