@@ -1,11 +1,10 @@
 #FAQ{
-    background: #1C1C1C;
-    background-image: url(https://tusharghone.com/faq.cd6f8a21aef14325.png);
-    background-size: 70vw;
-    background-repeat: no-repeat;
-    background-position-x: 50%;
+    
     margin-top: 0;
-    padding: 3rem 10rem;
+    margin-right: 6.5rem;
+    margin-left: 6.5rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
 }
 
 h1{
@@ -19,9 +18,8 @@ h1{
 }
 @media (max-width: 992px) {
     #FAQ{
-      
-      padding: 1rem ;
-   
+        margin-right: 2.5rem;
+        margin-left: 2.5rem;
     }
     
 }

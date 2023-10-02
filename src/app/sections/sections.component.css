@@ -1,0 +1,37 @@
+section{
+    
+    position: relative;
+    background: #ffffff;
+  
+}
+#Home{
+    background-image: url(https://tusharghone.com/home.e103acf0b8bfe435.png);
+    background-size: 98vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-color: #1a1a1a;
+    
+}
+
+#Services{
+    background: #272727;
+    background-image: url(https://tusharghone.com/service.55255802d18de965.png);
+    background-size: 70vw;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+}
+#AboutUs{
+    background: #151515;
+    background-image: url(https://tusharghone.com/about-us.6972175f2a9d5bc5.png);
+    background-size: 70vw;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+}
+#FAQ{
+    background: #1C1C1C;
+    background-image: url(https://tusharghone.com/faq.cd6f8a21aef14325.png);
+    background-size: 70vw;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+}

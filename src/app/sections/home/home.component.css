@@ -1,13 +1,17 @@
 #homeContainer{
-    background-image: url(https://tusharghone.com/home.e103acf0b8bfe435.png);
-    background-size: 98vw;
-    padding: 2rem 10rem 10rem;
-    display: flex;
- background-repeat: no-repeat;
-    justify-content: space-between;
-    background-color: #1a1a1a;
+  
+    height: 100%;
+    
 }
-
+#container{
+    display: flex;
+    
+    padding-right: calc(1.5rem * .5);
+    padding-left: calc(1.5rem * .5);
+    margin-left: 6.5rem;
+    margin-right: 6.5rem;
+    
+}
 h5{
   color: #df7068;
   font-weight: 700;
@@ -119,12 +123,25 @@ h6{
 
 
 @media (max-width: 1128px) {
-    #homeContainer{
+    #container{
       flex-wrap: wrap;
-      padding: 1rem 5rem 5rem ;
+      padding: 1rem  ;
       justify-content: center;
+     
     }
     .img-bulls{
         height: 20rem;
+    }
+}
+@media (max-width: 755px) {
+    #container{
+      flex-wrap: wrap;
+      padding: 1rem  ;
+      justify-content: center;
+   
+     
+    }
+    .img-bulls{
+        height: 15rem;
     }
 }

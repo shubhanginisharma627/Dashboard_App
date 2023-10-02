@@ -1,5 +1,10 @@
 #Information{
-    padding: 2rem 10rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    padding-right: calc(1.5rem * .5);
+    padding-left: calc(1.5rem * .5);
     background: #272727;
 }
 h2{
@@ -15,7 +20,7 @@ h2{
     font-size: 11px;
     line-height: 24px;
     align-items: center;
-    
+    margin-top: auto;
 }
 #Introduction{
     display: flex;
@@ -64,11 +69,7 @@ h3{
 }
 
 @media (max-width: 1128px) {
-    #Information{
-      
-      padding: 1rem  ;
-   
-    }
+    
     #Introduction{
         flex-wrap: wrap;
         justify-content: center;

@@ -1,10 +1,14 @@
 #CourseContainer{
     background: #272727;
-;
-    background-size: 70vw;
+    background-size: 100%;
     background-repeat: no-repeat;
     background-position-x: 50%;
-    padding: 5rem 10rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    padding-right: calc(1.5rem * .5);
+    padding-left: calc(1.5rem * .5);
 }
 
 
@@ -52,33 +56,30 @@ p{
     margin-bottom: 1rem;
 }
 .cardDeck{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
-  gap: 3rem;
-   
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
 
 }
 @media (max-width: 1228px)  {
     #CourseContainer{
       flex-wrap: wrap;
-      padding: 1rem;
+    
+      justify-content: center;
     }
     .cardDeck{
-            grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
-            gap: 2rem; 
+        
           
     }
 }
 @media (max-width: 752px)  {
     #CourseContainer{
-      flex-wrap: wrap;
-      padding: 1rem;
+      display: flex;
+     
+     
+      justify-content: center;
     }
     .cardDeck{
-            grid-template-columns: repeat(1, 1fr); /* Two columns with equal width */
-            gap: 2rem; 
-            margin-left: 6rem;
-            margin-right:6rem;
-          
+           
     }
 }

@@ -26,6 +26,7 @@ export class HeaderComponent {
   }
   openPopup(): void {
     this.isPopupOpen = !this.isPopupOpen;
+    console.log(this.isPopupOpen)
     if (this.isPopupOpen) {
       // Calculate the position based on the navbar's dimensions
       const navbar = document.querySelector('.navbar');

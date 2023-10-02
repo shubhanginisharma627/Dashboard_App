@@ -13,7 +13,7 @@ import { AboutusComponent } from './sections/aboutus/aboutus.component';
 import { CourseComponent } from './sections/course/course.component';
 import { InstructorComponent } from './sections/instructor/instructor.component';
 import { FaqComponent } from './sections/faq/faq.component';
-import { InvestorComponent } from './header/investor/investor.component';
+
 import { CardsComponent } from './sections/services/cards/cards.component';
 import { InformationComponent } from './sections/information/information.component';
 import { CardComponent } from './sections/course/card/card.component';
@@ -38,7 +38,6 @@ import { PopupComponent } from './header/popup/popup.component';
     CourseComponent,
     InstructorComponent,
     FaqComponent,
-    InvestorComponent,
     CardsComponent,
     InformationComponent,
     CardComponent,

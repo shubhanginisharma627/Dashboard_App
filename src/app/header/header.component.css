@@ -37,10 +37,13 @@
     color: #fff;
   }
   
-
+.hamburger-menu{
+  cursor: pointer;
+}
 @media (max-width: 1224px) {
   .navbar{
-    padding: 1rem 3rem;
+    padding: 1rem ;
+
   }
      
 }

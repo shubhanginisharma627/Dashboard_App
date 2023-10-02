@@ -1,13 +1,14 @@
 
 #Card{
-    background: #121212;
-    border-radius: 8px;
-    display: flex;
-    align-items: center;
-    text-align: center;
+  width: 400px;
+    
 }
 .CardComponent{
-   margin: 1rem;
+    background: #121212;
+    border-radius: 8px;
+    padding: 1.2em;
+    margin-bottom: 3em;
+    margin: 1rem;
 }
 
 .imgContainer{
@@ -57,4 +58,12 @@ p{
 }
 a{
     text-decoration: none;
+}
+@media (max-width: 1122px) {
+    #Card{
+        flex-wrap: wrap;
+        flex: 0 0 auto;
+        
+    }
+
 }
