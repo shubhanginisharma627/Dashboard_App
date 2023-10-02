@@ -67,3 +67,11 @@ a{
     }
 
 }
+@media (max-width: 786px) {
+    #Card{
+        flex-wrap: wrap;
+        flex: 0 0 auto;
+        width: 500px;
+    }
+
+}

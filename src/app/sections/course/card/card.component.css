@@ -23,14 +23,13 @@ h3{
     margin-left: 2rem;
 }
 .imgContainer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background: #121212;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 1.2em;
 }
 img{
-    height: 24vh;
-    object-fit: contain;
-    margin-top: 1rem;
+   width: 100%;
 }
 .info{
     display: flex;

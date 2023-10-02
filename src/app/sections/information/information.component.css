@@ -1,11 +1,11 @@
 #Information{
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 2.5rem;
+    margin-left: 2.5rem;
     padding-top: 3rem;
     padding-bottom: 2rem;
     padding-right: calc(1.5rem * .5);
     padding-left: calc(1.5rem * .5);
-    background: #272727;
+   
 }
 h2{
     font-weight: 700;
@@ -73,6 +73,18 @@ h3{
     #Introduction{
         flex-wrap: wrap;
         justify-content: center;
+    }
+    .aboutImage{
+        display: none;
+    }
+}
+@media (max-width: 786px) {
+    
+    #Introduction{
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-right: 0.1rem;
+    margin-left: 0.1rem;
     }
     .aboutImage{
         display: none;

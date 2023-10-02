@@ -133,12 +133,13 @@ h6{
         height: 20rem;
     }
 }
-@media (max-width: 755px) {
+@media (max-width: 786px) {
     #container{
       flex-wrap: wrap;
       padding: 1rem  ;
       justify-content: center;
-   
+      margin-left: 0.5rem;
+      margin-right: 0.5rem;
      
     }
     .img-bulls{

@@ -35,3 +35,13 @@ section{
     background-repeat: no-repeat;
     background-position-x: 50%;
 }
+#Info{
+    background: #272727;
+}
+#Instructor{
+    background: #151515;
+    background-image: url(https://tusharghone.com/about-us.6972175f2a9d5bc5.png);
+    background-size: 70vw;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+}
